@@ -1,0 +1,1 @@
+(()=>{const p=new URLSearchParams(location.search),f='кунагыбыз',n=(p.get('name')||p.get('guest')||f).trim().slice(0,80)||f;document.querySelectorAll('[data-guest-name]').forEach(e=>e.textContent=n);document.title=`Хөрмәтле ${n} — юбилейга чакыру`})();
